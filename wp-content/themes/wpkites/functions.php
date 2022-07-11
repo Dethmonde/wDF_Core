@@ -129,7 +129,7 @@ add_filter('get_custom_logo', 'wpkites_logo_class');
 
 function wpkites_new_content_more($more) {
     global $post;
-    return '<p><a href="' . esc_url(get_permalink()) . "#more-{$post->ID}\" class=\"more-link btn-ex-small btn-border\">" . esc_html__('Read More', 'wpkites' ) . "</a></p>";
+    return '<p><a href="' . esc_url(get_permalink()) . "#more-{$post->ID}\" class=\"more-link btn-ex-small btn-border\">" . esc_html__('Подробнее', 'wpkites' ) . "</a></p>";
 }
 
 add_filter('the_content_more_link', 'wpkites_new_content_more');
@@ -194,7 +194,7 @@ if ( ! function_exists( 'wpkites_plus_activate' ) ){
 }
 
 function wpkites_modify_read_more_link() {
-     $blog_button = get_theme_mod('wpkites_blog_button_title', 'READ MORE');
+     $blog_button = get_theme_mod('wpkites_blog_button_title', 'Подробнее');
 
             if (empty($blog_button)) {
                 return;

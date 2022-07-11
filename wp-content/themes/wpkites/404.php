@@ -15,7 +15,7 @@ get_header();?>
                     <h2 class="title"><?php esc_html_e('4', 'wpkites' ); ?><img src="<?php echo esc_url(WPKITES_TEMPLATE_DIR_URI.'/assets/images/crack-bulb.png');?>" class="img-fluid" alt="<?php esc_attr_e('cup-tea', 'wpkites'); ?>"><?php esc_html_e('4', 'wpkites' ); ?></h2>
                     <h2 class="contact-title"><?php echo wp_kses_post("Страница<br> не найдена.","wpkites");?></h2>
                     <div class="not-found-btn">
-                         <a href="<?php echo esc_url(home_url('/')); ?>" class="btn-small btn-default"><?php esc_html_e('Back to Homepage', 'wpkites' ); ?></a>
+                         <a href="<?php echo esc_url(home_url('/')); ?>" class="btn-small btn-default"><?php esc_html_e('Вернутся на главную страницу', 'wpkites' ); ?></a>
                     </div>                
                 </div>
             </div>

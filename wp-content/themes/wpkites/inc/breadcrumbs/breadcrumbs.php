@@ -21,14 +21,14 @@ if (!function_exists('wpkites_breadcrumbs')):
                                 if(get_option('show_on_front')=='page'){
                                     if(is_front_page()){?>
                                         <div class="page-title">
-                                            <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                                            <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
                                             <h1><?php echo esc_html(get_the_title( get_option('page_on_front', true) )); ?></h1>
                                         </div>
                                     <?php   
                                     }
                                     else if(is_home()){?>
                                         <div class="page-title">
-                                            <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                                            <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
                                             <h1><?php echo esc_html(get_the_title( get_option('page_for_posts', true) )); ?></h1>
                                         </div>          
                                     <?php
@@ -36,8 +36,8 @@ if (!function_exists('wpkites_breadcrumbs')):
                                 }
                                 elseif(get_option('show_on_front')=='posts'){?>
                                     <div class="page-title">
-                                        <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
-                                        <h1><?php echo wp_kses_post(get_theme_mod('blog_page_title_option', __('Home', 'wpkites' ))); ?></h1>
+                                        <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                                        <h1><?php echo wp_kses_post(get_theme_mod('blog_page_title_option', __('Главная', 'wpkites' ))); ?></h1>
                                     </div>
                                 <?php
                                 }   
@@ -46,20 +46,20 @@ if (!function_exists('wpkites_breadcrumbs')):
                             else{
                                 if(get_option('show_on_front')=='posts'){?>
                                     <div class="page-title">
-                                        <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
-                                        <h1><?php echo wp_kses_post(get_theme_mod('blog_page_title_option', __('Home', 'wpkites' ))); ?></h1>
+                                        <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                                        <h1><?php echo wp_kses_post(get_theme_mod('blog_page_title_option', __('Главная', 'wpkites' ))); ?></h1>
                                     </div> 
                                 <?php
                                 }else{
                                     if(is_front_page()){?>
                                         <div class="page-title">
-                                            <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                                            <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
                                             <h1><?php echo esc_html(get_the_title( get_option('page_on_front', true) )); ?></h1>
                                         </div>
                                     <?php   
                                     }else if(is_home()){?>
                                         <div class="page-title">
-                                            <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                                            <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
                                             <h1><?php echo esc_html(get_the_title( get_option('page_for_posts', true) )); ?></h1>
                                         </div>          
                                     <?php
@@ -69,7 +69,7 @@ if (!function_exists('wpkites_breadcrumbs')):
                         } 
                         else{ ?>                   
                             <div class="page-title">
-                            <h3 class="theme-dtl"><?php esc_html_e('Welcome to ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
+                            <h3 class="theme-dtl"><?php esc_html_e('Приветствуем на ', 'wpkites'); echo esc_html(get_bloginfo( 'name' )); ?></h3>
                                             
                             <?php if (is_search()){
                                     echo '<h1>'. get_search_query() .'</h1>';
