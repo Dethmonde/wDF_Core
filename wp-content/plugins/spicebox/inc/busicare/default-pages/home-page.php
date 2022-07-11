@@ -5,9 +5,9 @@
 		  'ping_status' =>  'closed' ,
 		  'post_author' => 1,
 		  'post_date' => date('Y-m-d H:i:s'),
-		  'post_name' => 'Home',
+		  'post_name' => 'Главная',
 		  'post_status' => 'publish' ,
-		  'post_title' => 'Home',
+		  'post_title' => 'Главная',
 		  'post_type' => 'page',
 	);  
 	//insert page and save the id
@@ -16,7 +16,7 @@
 		update_post_meta( $newvalue, '_wp_page_template', 'template-business.php' );
 		
 		// Use a static front page
-		$page = get_page_by_title('Home');
+		$page = get_page_by_title('Главная');
 		update_option( 'show_on_front', 'page' );
 		update_option( 'page_on_front', $page->ID );
 		

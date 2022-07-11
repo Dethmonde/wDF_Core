@@ -9,6 +9,7 @@ get_header();
 		do_action( 'wpkites_plus_before_slider_section_hook', false);
 		do_action( 'wpkites_plus_slider_action' , false);		
 		do_action( 'wpkites_plus_after_slider_section_hook', false);
+
 	    
 	    $wpkites_data =is_array($wpkites_front_page) ? $wpkites_front_page : explode(",",$wpkites_front_page);			
 		if($wpkites_data) 
