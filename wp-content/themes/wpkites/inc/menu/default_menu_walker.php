@@ -17,7 +17,7 @@ function wpkites_fallback_page_menu($args = array()) {
     // Show Home in the menu
     if (!empty($args['show_home'])) {
         if (true === $args['show_home'] || '1' === $args['show_home'] || 1 === $args['show_home'])
-            $text = esc_html__('Home', 'wpkites' );
+            $text = esc_html__('Главная', 'wpkites' );
         else
             $text = $args['show_home'];
         $class = '';

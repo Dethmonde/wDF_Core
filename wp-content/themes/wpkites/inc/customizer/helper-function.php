@@ -174,7 +174,7 @@ function wpkites_footer_section_hook() {
         
         <?php if (get_theme_mod('ftr_bar_enable', true) == true): ?>
             <div class="site-info text-center">
-            <?php echo wp_kses_post(get_theme_mod('footer_copyright', '<p class="copyright-section"><span>'.__( 'Proudly powered by <a href="https://wordpress.org"> WordPress</a> | Theme: <a href="https://spicethemes.com/wpkites-wordpress-theme" rel="nofollow">WPKites</a> by <a href="https://spicethemes.com" rel="nofollow">Spicethemes</a>', 'wpkites').'</span></p>')); ?>     
+            <?php echo wp_kses_post(get_theme_mod('footer_copyright', '<p class="copyright-section"><span>'.__( 'Работает через <a href="https://wordpress.org"> WordPress</a> | Специально для учебной практики', 'wpkites').'</span></p>')); ?>     
             </div>
         <?php endif; ?>
          <style type="text/css">
