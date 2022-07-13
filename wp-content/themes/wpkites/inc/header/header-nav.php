@@ -41,17 +41,17 @@
 		    $wpkites_shop_button .= '<div class="nav-search nav-light-search wrap">
 		                           			<div class="search-box-outer">
 	                            				<div class="dropdown">
-                  									<a href="#" title="'.esc_attr__('Search','wpkites').'" class="search-icon condition has-submenu" aria-haspopup="true" aria-expanded="false">
+                  									<a href="#" title="'.esc_attr__('Поиск','wpkites').'" class="search-icon condition has-submenu" aria-haspopup="true" aria-expanded="false">
                										<i class="fa fa-search"></i>
              										<span class="sub-arrow"></span></a>
              										<ul class="dropdown-menu pull-right search-panel"  role="group" aria-hidden="true" aria-expanded="false">
                              							<li class="panel-outer">
                              								<div class="form-container">
-                               									 <form role="'.esc_attr('Search','wpkites').'" method="get" class="search-form" action="'.esc_url( home_url( '/' )).'">
+                               									 <form role="'.esc_attr('Поиск','wpkites').'" method="get" class="search-form" action="'.esc_url( home_url( '/' )).'">
                                 									 <label>
-                                  										<input type="search" class="search-field" placeholder="'.esc_attr__('Search','wpkites').'" value="" name="s" autocomplete="off">
+                                  										<input type="search" class="search-field" placeholder="'.esc_attr__('Искомое','wpkites').'" value="" name="s" autocomplete="off">
                                  									 </label>
-                                 									<input type="submit" class="search-submit" value="'.esc_attr__('Search','wpkites').'">
+                                 									<input type="submit" class="search-submit" value="'.esc_attr__('Найти','wpkites').'">
                                 								 </form>                   
                                								</div>
                              							</li>
